@@ -1,0 +1,8 @@
+int main(){
+    boolean a = true;
+    boolean b = false;
+    if (a && b){
+        printInt(32);
+    }
+    return 0;
+}

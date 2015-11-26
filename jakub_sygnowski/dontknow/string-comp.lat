@@ -1,0 +1,7 @@
+int main(){
+    string a = "123";
+    if (a == "232"){
+        printString(a);
+    }
+    return 0;
+}

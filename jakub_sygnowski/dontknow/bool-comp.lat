@@ -1,0 +1,7 @@
+int main(){
+    bool a = true, b = false;
+    if (a != b){
+        return 42;
+    }
+    return 0;
+}

@@ -1,0 +1,8 @@
+int main(){
+    int a;
+    if (a == 0){
+        
+    } else {
+        return 23;
+    }
+}

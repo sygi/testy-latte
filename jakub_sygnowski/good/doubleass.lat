@@ -1,0 +1,7 @@
+int main(){
+    int a = 13;
+    {
+        int a = a + 14;
+    }
+    return 0;
+}

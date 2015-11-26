@@ -1,0 +1,8 @@
+int main(){
+    int x;
+    int a = new int[32];
+    for (int x : a){
+        printInt(x);
+    }
+    return 0;
+}
