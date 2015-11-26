@@ -1,4 +1,6 @@
 // Author: Tomasz Biczel 277568, Tomasz Wysocki 277696
+
+// TODO: czy to powinno byc tutaj? W sensie, czy jest obowiazek akceptowania takiego programu?
 int main() {
     while (true) {
         int x;

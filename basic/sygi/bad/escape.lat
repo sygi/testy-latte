@@ -1,0 +1,5 @@
+// TODO: potwierdzic, czy to na pewno jest bad
+int main(){
+    string a = "\"\"
+    return 0;
+}

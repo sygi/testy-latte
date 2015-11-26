@@ -1,0 +1,7 @@
+int main(){
+    string a = "&$#%@^!~(*)==&-_+";
+    string b = "<<>\"";
+    string c = "'&'";
+    string d = "\"<\"";
+    return 0;
+}
