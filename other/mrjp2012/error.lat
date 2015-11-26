@@ -1,4 +1,6 @@
 // Author: Tomasz Wysocki 277696
+
+// Error should be reported in runtime
 int main() {
     error();
     return 0;
