@@ -20,3 +20,5 @@ arrays/
 struct/
 objects1/
 objects2/
+garbage-collector/
+other/
