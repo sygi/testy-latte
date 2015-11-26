@@ -1,4 +1,4 @@
-
+```
 Struktura kazdego glownego katalogu:
 
 nazwa_wrzucajacego/
@@ -22,3 +22,4 @@ objects1/
 objects2/
 garbage-collector/
 other/
+```
