@@ -1,0 +1,7 @@
+int func(){
+    return -2;
+}
+int main(){
+    func() = 2;
+    return 3;
+}

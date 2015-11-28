@@ -1,21 +1,24 @@
 /******************************************************************
  *                                                                *
- * bfs test by Michał Gregorczyk (mg277528@students.mimuw.edu.pl) *
+ * bfs test by Michal Gregorczyk (mg277528@students.mimuw.edu.pl) *
  *                               (michalg89@gmail.com)            *
  *                                                                *
  ******************************************************************
  * 22. stycznia 12:00                                             *
  *                                                                *
- * Mój kompilator jeszcze nie potrafi                             *
- * skompilować tego testu, dlatego                                *
- * nie sprawidziłem jego poprawności.                             *
+ * Moj kompilator jeszcze nie potrafi                             *
+ * skompilowac tego testu, dlatego                                *
+ * nie sprawidzilem jego poprawnosci.                             *
  * Test przechodzi natomiast przez                                *
- * analizę semantyczną.                                           *
+ * analize semantyczna.                                           *
  *                                                                *
- * Będę wdzięczny za wszelkie uwagi                               *
- * typu "nie działa, daje zły wynik"                              *
- * lub "u mnie działa".                                           *
+ * Bede wdzieczny za wszelkie uwagi                               *
+ * typu "nie dziala, daje zly wynik"                              *
+ * lub "u mnie dziala".                                           *
  *****************************************************************/
+
+// sygi: usunalem z tego kodu znaki polskie, bez tego mi sie nie parsowal;
+// ale w sumie dobrze byloby sie upewnic, ze kompilator nie musi ich wspierac (sic!)
 
 class Node{
     boolean visited;

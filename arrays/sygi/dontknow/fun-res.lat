@@ -1,0 +1,7 @@
+int main(){
+    f()[3] = 4;
+}
+
+int[] f(){
+    return new int[32];
+}

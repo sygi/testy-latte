@@ -1,0 +1,5 @@
+int main(){
+    int[] abcd = new int[10];
+    abcd[5]++;
+    return 0;
+}
