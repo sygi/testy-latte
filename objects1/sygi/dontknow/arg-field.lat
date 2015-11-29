@@ -1,0 +1,11 @@
+// Zalozenia - nie jestem pewien, czy tak mozna
+class C {
+    int f;
+    int func(string f){
+        return -1;
+    }
+}
+int main(){
+    C c = new C;
+    return 0;
+}

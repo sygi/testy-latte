@@ -13,4 +13,3 @@ int main(){
     myF().other.f();
     return 0;
 }
-    

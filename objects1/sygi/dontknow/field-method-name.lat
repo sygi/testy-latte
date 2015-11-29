@@ -1,0 +1,9 @@
+class C {
+    int f;
+    int f() {
+        return 13;
+    }
+}
+int main(){
+    return 0;
+}

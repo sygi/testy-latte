@@ -1,0 +1,12 @@
+// Zalozenia - nie jestem pewien, czy tak mozna
+class C {
+    int f;
+    int func(){
+        int f;
+        return f;
+    }
+}
+int main(){
+    C c = new C;
+    return 0;
+}

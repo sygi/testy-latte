@@ -1,0 +1,7 @@
+class C{
+	int f;
+}
+int main(){
+	int f = 23;
+	return f;
+}

@@ -1,0 +1,10 @@
+// Zalozenia - nie jestem pewien, czy tak mozna
+class C {
+    int g;
+}
+int main(){
+    int f;
+    C c = new C;
+    c.f = 13;
+    return 0;
+}

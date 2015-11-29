@@ -1,5 +1,6 @@
 int main(){
     int[] abcd = new int[10];
+    int l = (new int[12]).length;
     abcd[5]++;
     return 0;
 }

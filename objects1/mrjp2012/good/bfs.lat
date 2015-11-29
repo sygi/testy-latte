@@ -89,7 +89,7 @@ class Queue{
 
     Node get(){
         if (first == null)
-            return null;
+            return (Queue)null;
 
         Node retEl = first.head;
 

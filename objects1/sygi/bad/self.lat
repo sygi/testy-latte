@@ -1,0 +1,7 @@
+class C {
+	int self;
+}
+int main(){
+    C c = new C;
+    return c.self;
+}

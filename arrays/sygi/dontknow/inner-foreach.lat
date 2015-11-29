@@ -1,0 +1,7 @@
+int main(){
+    int w = new int[23];
+    foreach(int a : w){
+        int a = 4;
+    }
+    return w[0];
+}
