@@ -1,3 +1,4 @@
+// Assumed bad
 int f(){
     return -1;
 }

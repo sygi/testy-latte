@@ -1,4 +1,4 @@
-// Zalozenia - nie jestem pewien, czy tak mozna
+// Assumed bad
 class C {
     int f;
     int func(string f){

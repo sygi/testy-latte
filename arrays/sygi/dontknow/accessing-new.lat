@@ -1,6 +1,6 @@
 // Assumed bad
 int main(){
     int[] a = new int[12];
-    a[1] = new int[23];
-    return 0;
+    int l = new int[12].length;
+    return a[l];
 }

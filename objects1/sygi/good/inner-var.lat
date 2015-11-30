@@ -1,0 +1,16 @@
+class C{
+    int f(int a){
+        while (a > 5) {
+            string a = "@3";
+            if (a == "24"){
+                int a = 7;
+            }
+        }
+        return 0;
+    }
+}
+
+int main(){
+    C a = new C;
+    return 5;
+}

@@ -1,3 +1,4 @@
+// Assumed good
 int main(){
     int w = new int[23];
     int a = 15;

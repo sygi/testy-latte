@@ -1,3 +1,4 @@
+// assumed bad
 class C {
     int f;
     int f() {

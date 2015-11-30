@@ -1,4 +1,4 @@
-// Zalozenia - nie jestem pewien, czy tak mozna
+// Assumed good?
 class C {
     int f;
 }

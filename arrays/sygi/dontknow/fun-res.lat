@@ -1,3 +1,4 @@
+// Assumed bad
 int main(){
     f()[3] = 4;
 }

@@ -1,0 +1,14 @@
+// Assumed good
+class A {
+    int f;
+}
+
+class B extends A {
+    int f(){
+        return f;
+    }
+}
+
+int main(){
+    return 0;
+}

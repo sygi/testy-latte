@@ -1,3 +1,4 @@
+// Assumed good
 class C {
     int f;
 

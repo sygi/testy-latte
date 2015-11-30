@@ -1,0 +1,6 @@
+// Assumed bad
+int main(){
+    int[][] b = new int[][123];
+    b[1] = new int[14];
+    return b[1][2];
+}

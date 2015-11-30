@@ -1,3 +1,4 @@
+// assumed bad
 int main(){
     int a = 13;
     int[] a;

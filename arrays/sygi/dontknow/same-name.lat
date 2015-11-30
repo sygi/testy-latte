@@ -1,3 +1,4 @@
+// assumed good.
 int main(){
     int x;
     int[] a = new int[32];

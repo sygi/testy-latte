@@ -1,4 +1,4 @@
-// Zalozenia - nie jestem pewien, czy tak mozna
+//assumed bad
 class C {
     int g;
 }

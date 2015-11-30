@@ -1,5 +1,7 @@
 // Assumed bad
+class C extends B{
+    int a;
+}
 int main(){
-    (new int[1])[0] = 10;
     return 0;
 }
