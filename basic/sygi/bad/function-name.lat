@@ -1,4 +1,3 @@
-// Assumed bad
 int main(){
     return 0;
 }

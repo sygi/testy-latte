@@ -1,6 +1,5 @@
-// Assumed good
 int main(){
-    int w = new int[23];
+    int w[] = new int[23];
     foreach(int a : w){
         int a = 4;
     }

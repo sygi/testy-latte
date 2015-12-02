@@ -1,4 +1,3 @@
-// Assumed bad
 class C extends B{
     int a;
 }

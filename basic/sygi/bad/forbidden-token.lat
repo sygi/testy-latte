@@ -1,4 +1,3 @@
-// assumed bad? (should I check for that too?)
 int main(){
     int true = 12;
     return true;

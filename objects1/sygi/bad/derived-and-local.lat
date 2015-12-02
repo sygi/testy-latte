@@ -1,10 +1,15 @@
-// Assumed good?
 class A {
-    int f;
+    int f(){
+        return -1;
+    }
 }
 
 class B extends A {
-    int f(){
+    int f;
+}
+
+class C extends B {
+    int g(){
         return f;
     }
 }

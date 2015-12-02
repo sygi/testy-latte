@@ -1,9 +1,8 @@
-// Assumed bad
 class C {
     int f;
     int func(){
         int f;
-        return f;
+        return f; // local var
     }
 }
 int main(){

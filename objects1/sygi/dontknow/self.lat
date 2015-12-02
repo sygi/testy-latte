@@ -1,5 +1,0 @@
-//Assumed good
-int main(){
-    int self = 21;
-    return self;
-}

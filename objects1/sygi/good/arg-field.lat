@@ -1,4 +1,3 @@
-// Zalozenia - nie jestem pewien, czy tak mozna
 class C {
     int f;
     int func(string f){

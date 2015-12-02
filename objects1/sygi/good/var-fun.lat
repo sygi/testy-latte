@@ -1,0 +1,14 @@
+class C{
+    int f(){
+        int g = 15;
+        g;
+    }
+}
+
+int g(){
+    return -1;
+}
+
+int main(){
+    return g();
+}

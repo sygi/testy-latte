@@ -1,0 +1,7 @@
+class C extends B {
+}
+class B extends C {
+}
+int main(){
+    return 0;
+}
