@@ -1,0 +1,12 @@
+class C{
+    int f(){
+        return self.g();
+    }
+}
+int g(){
+    return 14;
+}
+int main(){
+    C c = new C;
+    return c.f();
+}

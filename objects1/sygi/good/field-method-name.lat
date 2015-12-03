@@ -1,3 +1,4 @@
+// mozna tego nie akceptowac
 class C {
     int f;
     int f() {

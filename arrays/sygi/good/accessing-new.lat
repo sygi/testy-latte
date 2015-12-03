@@ -1,4 +1,3 @@
-// Assumed bad
 int main(){
     int[] a = new int[12];
     int l = new int[12].length;

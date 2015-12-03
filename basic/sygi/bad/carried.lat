@@ -1,0 +1,8 @@
+int f(int a, int b){
+    return 312;
+}
+
+int main(){
+    int g = f(15)(51);
+    return g;
+}

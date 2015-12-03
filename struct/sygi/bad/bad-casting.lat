@@ -1,0 +1,8 @@
+class C{
+    int a;
+}
+int main(){
+    C c = new C;
+    int d = (C.a) null;
+    return -1;
+}

@@ -1,7 +1,7 @@
 int main(){
     int[] w = new int[23];
     int a = 15;
-    foreach(int a : w){
+    for (int a : w){
         int b = a + 4;
     }
     return w[0];

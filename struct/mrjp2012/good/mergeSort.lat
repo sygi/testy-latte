@@ -86,7 +86,7 @@ Lista generujTablicoListeDoSortowaniaMerge13co7Malejaco(int dlugoscListy, boolea
 	start.wartosc = 0;
 	if (pisz) printInt(start.wartosc);
 	while (wsk != dlugoscListy){
-		start.poprzedni = null;
+		start.poprzedni = (Lista)null;
 		a.nastepny = new Lista;
 		n = a;
 		a = a.nastepny;
