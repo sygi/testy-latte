@@ -1,0 +1,8 @@
+int main() {
+    return 0;
+}
+class S {
+	void p(string c){
+		string d = -c;
+	}
+}

@@ -1,0 +1,8 @@
+int main(){
+    boolean c = true;
+    int[] a = new int[23];
+    if (a[c] == 23){
+        return 0;
+    }
+    return 1;
+}

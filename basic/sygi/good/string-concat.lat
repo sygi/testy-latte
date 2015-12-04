@@ -1,0 +1,9 @@
+int main(){
+    string a = "s";
+    string b = "ygi";
+    if (a + b == "sygi"){
+        return 0;
+    } else {
+        return 1;
+    }
+}
