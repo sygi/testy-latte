@@ -1,0 +1,5 @@
+int main(){
+    string a = readString();
+    printString(a);
+    return 0;
+}

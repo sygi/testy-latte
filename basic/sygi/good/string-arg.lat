@@ -1,0 +1,9 @@
+int main(){
+    f("asdf");
+    return 0;
+}
+
+int f(string x){
+    string c = x + "second";
+    return 2;
+}

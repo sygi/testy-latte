@@ -2,6 +2,6 @@
 int f(int x, int x) {
    return x;
 }
-int main(){
+int main(){ // Jakub Sygnowski - dopisalem maina, zeby sie wywalalo w oczekiwanym miejscu
     return 2;
 }

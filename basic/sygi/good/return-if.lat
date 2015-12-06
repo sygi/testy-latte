@@ -1,0 +1,11 @@
+int main(){
+    int a = 23, b = 15;
+    if (a > b){
+        return a;
+        a = a + 5;
+    } else {
+        return b;
+        b = b - 4;
+    }
+    int c = 15;
+}
