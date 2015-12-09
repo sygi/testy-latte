@@ -1,0 +1,15 @@
+class C{
+  int x(){
+    return 0;
+  }
+}
+
+class D extends C {
+  void x(){
+  }
+}
+
+int main(){
+  D d = new D;
+  return 13;
+}
