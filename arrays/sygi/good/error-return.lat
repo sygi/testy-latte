@@ -1,0 +1,11 @@
+int main(){
+    return 0;
+}
+
+string[] func(){
+    error();
+}
+
+int[] g(){
+    error();
+}
