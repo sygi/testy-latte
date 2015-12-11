@@ -1,0 +1,4 @@
+int main(){
+    void[] a = new void[21];
+    return 0;
+}

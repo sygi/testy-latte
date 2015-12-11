@@ -1,0 +1,9 @@
+class C{
+    int f(){
+        self = new C;
+        return 0;
+    }
+}
+int main(){
+    return 0;
+}

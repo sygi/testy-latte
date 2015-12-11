@@ -1,0 +1,11 @@
+class C{
+    int x;
+}
+
+class D extends C {
+    int x;
+}
+
+int main(){
+    return 0;
+}

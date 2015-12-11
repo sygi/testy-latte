@@ -1,0 +1,6 @@
+class C{
+    C self;
+}
+int main(){
+    return 0;
+}
