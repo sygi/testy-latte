@@ -1,0 +1,5 @@
+int main(){
+    int[] tab = new int[12];
+    tab.length = 2;
+    return 0;
+}

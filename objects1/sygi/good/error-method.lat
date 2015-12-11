@@ -1,0 +1,12 @@
+class C{
+    int error(){
+        return -1;
+    }
+    void f(){
+        int a = error();
+    }
+}
+
+int main(){
+    return 0;
+}

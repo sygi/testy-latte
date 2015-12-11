@@ -1,0 +1,8 @@
+class C{
+    int error(){
+        error();
+    }
+}
+int main(){
+    return 0;
+}
