@@ -1,5 +1,0 @@
-class C{
-  int x(){
-    return 0;
-  }
-}
