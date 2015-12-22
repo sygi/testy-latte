@@ -1,0 +1,15 @@
+int main(){
+    int[] a = new int[10], b = new int[10];
+    if (a == b){
+        printString("bad");
+    }
+    a[3] = 4;
+    b[3] = 4;
+    if (a == b){
+        printString("bad");
+    }
+    if (a == a){
+        printString("ok");
+    }
+    return 0;
+}

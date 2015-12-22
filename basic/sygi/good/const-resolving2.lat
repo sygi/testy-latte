@@ -1,0 +1,15 @@
+int main(){
+    boolean a = (3 == 6) || (4 - 5 == -1);
+    int c = 132;
+    boolean b = false || false || c == 23;
+    if (false || false || 1 != -1){
+        return 0;
+    }
+}
+
+// This should parse to:
+/* boolean a = true;
+ * int c = 132;
+ * boolean b = c == 23;
+ * {return 0;}
+ */

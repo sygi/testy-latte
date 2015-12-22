@@ -1,0 +1,18 @@
+int main(){
+    int[] tab = new int[10];
+    int i = 1;
+    for(int x : tab){
+        tab[i - 1] = i;
+        i++;
+    } 
+    int sum = 0;
+    for(int a : tab){
+        for(int b: tab){
+            sum = sum + a * b;
+        }
+    }
+    printInt(sum);
+    printString("should equal");
+    printInt((10 * 11 * 10 * 11)/4);
+    return 0;
+}

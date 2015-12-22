@@ -1,0 +1,4 @@
+int main(){
+    list a = new list;
+    return 0;
+}

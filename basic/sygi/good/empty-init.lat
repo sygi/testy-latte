@@ -1,0 +1,7 @@
+int main(){
+    int a;
+    printInt(a);
+    string b;
+    printString(b);
+    return 0;
+}

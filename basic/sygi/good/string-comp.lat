@@ -3,5 +3,8 @@ int main(){
     if (a == "232"){
         printString(a);
     }
+    if (a != "1323"){
+        printString("ok");
+    }
     return 0;
 }

@@ -1,0 +1,9 @@
+int main(){
+    string[] a = new string[3];
+    int[] b = new int[2];
+    printString(a[1]);
+    printString(a[2]);
+    printInt(b[0]);
+    printString(a[0]);
+    return 0;
+}

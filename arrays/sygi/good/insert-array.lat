@@ -1,0 +1,8 @@
+int main(){
+    string[] a = new string[10];
+    printInt(2);
+    a[3] = "sygi";
+    printInt(2);
+    printString(a[3] + a[4]);
+    return 0;
+}

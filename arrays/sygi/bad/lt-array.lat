@@ -1,0 +1,8 @@
+int main(){
+    int[] a = new int[10];
+    int[] b = new int[10];
+    if (a < b){
+        printInt(34);
+    }
+    return 0;
+}

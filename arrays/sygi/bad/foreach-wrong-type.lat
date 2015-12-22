@@ -1,0 +1,6 @@
+int main(){
+    int[] tab = new int[23];
+    foreach(string b : tab){
+    }
+    return 0;
+}

@@ -1,6 +1,6 @@
 int main(){
     int x;
-    int[] a = new int[32];
+    int[] a = new int[3];
     for (int x : a){
         printInt(x);
     }
