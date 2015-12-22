@@ -3,5 +3,7 @@ int f(){
 }
 int main(){
     int f = 15;
+    printInt(f);
+    printInt(f());
     return f;
 }

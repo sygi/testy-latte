@@ -3,5 +3,9 @@ int main(){
     string b = "<<>\"";
     string c = "'&'";
     string d = "\"<\"";
+    printString(a);
+    printString(b);
+    printString(c);
+    printString(d);
     return 0;
 }

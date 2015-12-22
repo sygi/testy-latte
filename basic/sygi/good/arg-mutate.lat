@@ -1,0 +1,18 @@
+int main(){
+    string x = "bla";
+    f(x);
+    printString(x);
+    int y = 31;
+    g(y);
+    printInt(y);
+    return 0;
+}
+
+void g(int x){
+    x = 42;
+    printInt(x);
+}
+
+void f(string x){ // I assumed here that strings are like in Java - immutable, that is changing them in a function doesn't change the upper object (even though they are passed by the reference)
+    x = x + " changed";
+}

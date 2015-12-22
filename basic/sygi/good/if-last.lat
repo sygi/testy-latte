@@ -4,6 +4,7 @@ int main(){
         int c = 15;
         return 0;
     } else {
+        printString("ok");
         return 10;
     }
 }

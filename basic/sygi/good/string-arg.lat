@@ -1,9 +1,9 @@
 int main(){
-    f("asdf");
+    printString(f("asdf"));
     return 0;
 }
 
-int f(string x){
+string f(string x){
     string c = x + "second";
-    return 2;
+    return c;
 }

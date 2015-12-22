@@ -1,6 +1,7 @@
 int main(){
     boolean a = true, b = false;
     if (a != b){
+        printString("ok");
         return 42;
     }
     return 0;

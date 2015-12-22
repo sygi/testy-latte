@@ -2,6 +2,7 @@ int main(){
     int a = 13;
     {
         int a = a + 14;
+        printInt(a);
     }
     return 0;
 }

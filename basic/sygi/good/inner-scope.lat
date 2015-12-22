@@ -5,5 +5,6 @@ int main(){
     } else {
         int a = 17;
     }
+    printInt(a);
     return a;
 }

@@ -2,5 +2,6 @@ int main(){
     int a = 123;
     int b;
     b = (a);
+    printInt(b);
     return a;
 }

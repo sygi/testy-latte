@@ -1,9 +1,10 @@
 int main(){
     int a = 234;
-    a(34);
+    printInt(a(34));
     return 3;
 }
 
-void a(int x){
+int a(int x){
     int a = 23;
+    return a;
 }
