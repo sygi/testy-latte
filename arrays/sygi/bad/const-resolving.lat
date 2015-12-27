@@ -1,0 +1,4 @@
+int main(){
+    int[] a = new int[3 - 10];
+    return 0;
+}
