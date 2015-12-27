@@ -3,9 +3,15 @@ class C{
         return g();
     }
     int g(){
+        int c = y.x;
+        int[] a = new int[5 * 7];
         return p;
     }
     int p;
+    D y;
+}
+class D {
+    int x;
 }
 int main(){
     return new C.f();

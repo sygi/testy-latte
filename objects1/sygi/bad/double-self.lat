@@ -1,0 +1,10 @@
+class C{
+    int x;
+    int f(){
+        return self.self.x;
+    }
+}
+int main(){
+    C c = new C;
+    return 0;
+}

@@ -1,0 +1,8 @@
+class C{
+    int x;
+}
+int main(){
+    C c = new C;
+    int a = 1 + c.self.x;
+    return 0;
+}
