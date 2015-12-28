@@ -1,6 +1,13 @@
 int main(){
     int[] abcd = new int[10];
     int l = (new int[12]).length;
+    int a = (new int[32])[2];
     abcd[5]++;
+    a(abcd);
+    printInt(l);
     return 0;
+}
+
+void a(int[] x){
+    printInt(x[5]);
 }

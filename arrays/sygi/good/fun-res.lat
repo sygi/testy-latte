@@ -1,5 +1,6 @@
 int main(){
     f()[3] = 4;
+    printInt(f()[5]); // 0
     return 15;
 }
 

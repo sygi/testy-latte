@@ -1,7 +1,8 @@
 int main(){
-    int[] w = new int[23];
+    int[] w = new int[2];
     for (int a : w){
         int a = 4;
+        printInt(a);
     }
     return w[0];
 }

@@ -1,0 +1,13 @@
+int main(){
+    int[] a = new int[10];
+    f(a);
+    printInt(a[4]);
+    return 0;
+}
+
+void f(int[] x){
+    x[4] = 4;
+    for(int y : x){
+        y = 10; // local copy here
+    }
+}
