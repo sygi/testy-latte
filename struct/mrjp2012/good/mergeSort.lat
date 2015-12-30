@@ -109,7 +109,7 @@ Lista generujTablicoListeDoSortowaniaMerge13co7Malejaco(int dlugoscListy, boolea
 
 Lista przejdzSieNaKoniecIWypisuj(Lista start, int dl){
 	Lista a = start, b = start;
-	printString("idziemy na koniec listy (ma byc nierosnaco): ");
+	printString("idziemy na koniec listy (ma byc nierosnaco):");
 	int wsk = 0;
 	while (wsk < dl){
 		printInt(a.wartosc);

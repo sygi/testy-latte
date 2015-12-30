@@ -36,7 +36,7 @@ void listaTest(int dlugoscListy){
 
 Lista przejdzSieNaKoniecIWypisuj(Lista start, int dl){
 	Lista a = start, b = start;
-	printString("idziemy na koniec listy: ");
+	printString("idziemy na koniec listy:");
 	int i = 0;
 	while (i < dl){
 		printInt(a.wartosc);
@@ -49,7 +49,7 @@ Lista przejdzSieNaKoniecIWypisuj(Lista start, int dl){
 
 Lista wrocNaPoczatekIWypisuj(Lista odKonca, int dl){
 	Lista a = odKonca, b;
-	printString("wracamy na poczatek listy: ");
+	printString("wracamy na poczatek listy:");
 	int w = dl;
 	while (w > 0){
 		printInt(a.wartosc);

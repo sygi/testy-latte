@@ -1,4 +1,6 @@
 int main(){
     (new int[1])[0] = 10;
+    int a = (new int[4]).length;
+    printInt(a);
     return 0;
 }

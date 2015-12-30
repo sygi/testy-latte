@@ -1,0 +1,16 @@
+int main(){
+    myC[] abcd = new myC[10];
+    abcd[5] = new myC;
+    abcd.length == 1;
+    if (abcd[5].field > 0){
+        return abcd[7].length;
+    }
+    else {
+        return abcd[5].field;
+    }
+}
+
+class myC {
+    int length;
+    int field;
+}

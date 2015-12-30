@@ -1,16 +1,18 @@
-int main(){
-    myC[] abcd = new myC[10];
-    abcd[5] = new myC;
-    abcd.length == 1;
-    if (abcd[5].field > 0){
-        return abcd[7].length;
-    }
-    else {
-        return abcd[5].field;
-    }
+class A{
+    int length;
 }
 
-class myC {
-    int length;
+int main(){
+    A a = new A;
+    B b = new B;
+    b.field = 15;
+    a.length = b.field + 5;
+    int[] t = new int[10];
+    t.length;
+    printInt(a.length);
+    return 0;
+}
+
+class B {
     int field;
 }
