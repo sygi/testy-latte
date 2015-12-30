@@ -1,0 +1,18 @@
+class list {
+    int a;
+}
+int main(){
+    list b = new list;
+    b.a = 1;
+    list c = f(b);
+    printInt(b.a); // 6
+    if (c == b){
+        printString("ok");
+    }
+    return 0;
+}
+
+list f(list x){
+    x.a = x.a + 5;
+    return x;
+}

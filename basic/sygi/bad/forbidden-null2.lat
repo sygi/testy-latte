@@ -1,0 +1,4 @@
+int main(){
+    int a = null;
+    return 0;
+}

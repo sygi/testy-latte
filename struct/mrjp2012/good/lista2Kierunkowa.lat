@@ -72,7 +72,7 @@ Lista zwrocListeDlugosci(int dlugoscListy){
 	int wsk = 1;
 	start.wartosc = 0;
 	while (wsk != dlugoscListy){
-		start.poprzedni = null;
+		start.poprzedni = (Lista)null;
 		a.nastepny = new Lista;
 		n = a;
 		a = a.nastepny;
@@ -80,7 +80,7 @@ Lista zwrocListeDlugosci(int dlugoscListy){
 		a.poprzedni = n;
 		wsk++;
 	}
-	a.nastepny = null;
+	a.nastepny = (Lista)null;
 	printString("wygenerowal liste 2kierunkowa dlugosci :");
 	printInt(dlugoscListy);
 	printString("__________");

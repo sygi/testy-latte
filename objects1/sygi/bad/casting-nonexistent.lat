@@ -1,0 +1,4 @@
+int main(){
+    (list) null;
+    return 0;
+}

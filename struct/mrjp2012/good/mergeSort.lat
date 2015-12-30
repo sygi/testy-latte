@@ -98,7 +98,7 @@ Lista generujTablicoListeDoSortowaniaMerge13co7Malejaco(int dlugoscListy, boolea
 		if (pisz) printInt(a.wartosc);
 		wsk++;
 	}
-	a.nastepny = null;
+	a.nastepny = (Lista)null;
 	if (pisz) printString("wygenerowal liste 2kierunkowa dziwna dlugosci :");
 	if (pisz) printInt(dlugoscListy);
 	if (pisz) printString("__________");
