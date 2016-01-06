@@ -1,0 +1,12 @@
+class C{
+    int x;
+}
+class D extends C {
+    int y;
+}
+int main(){
+    C c;
+    c = new D;
+    c.y = 14;
+    return 0;
+}

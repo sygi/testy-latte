@@ -1,0 +1,15 @@
+int main(){
+    C c = new C;
+    D d = new D;
+    if (c == d)
+        printString("bad");
+    return 0;
+}
+
+class C {
+    int x;
+}
+
+class D {
+    int y;
+}

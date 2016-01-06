@@ -1,0 +1,10 @@
+class C {
+  int x;
+}
+class D{
+  int y;
+}
+int main(){
+    C c = new D;
+    return 0;
+}
