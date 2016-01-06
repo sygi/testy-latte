@@ -1,5 +1,6 @@
 class C{
     int f(){
+        y = new D;
         return g();
     }
     int g(){
