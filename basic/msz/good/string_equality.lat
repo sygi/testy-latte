@@ -1,0 +1,12 @@
+int main() {
+  string a = "";
+  assert(a + a == a); assert(!(a + a != a));
+  assert(a + "x" == "x"); assert(!(a + "x" != "x"));
+  assert("x" + a == "x"); assert(!("x" + a != "x"));
+  return 0;
+}
+
+void assert(boolean x) {
+  if(!x)
+    error();
+}

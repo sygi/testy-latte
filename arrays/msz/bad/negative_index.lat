@@ -1,0 +1,5 @@
+int main() {
+  int[] x = new int[100];
+  int y = x[5*22-150];
+  return 0;
+}

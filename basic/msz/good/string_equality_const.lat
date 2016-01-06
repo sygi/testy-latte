@@ -1,0 +1,5 @@
+int main() {
+  // jeśli stałe są zwinięte, to nie będzie błędu braku returna
+  if("ab" == "a" + "b")
+    return 0;
+}

@@ -1,0 +1,8 @@
+class X {
+  int g() {
+   return 0;
+  }
+}
+int main() {
+  return new X.g();
+}
