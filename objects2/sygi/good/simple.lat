@@ -1,0 +1,23 @@
+class C{
+    void tell(){
+        printString("C");
+    }
+}
+
+class D extends C {
+    int a;
+    void tell(){
+        printString("D");
+    }
+}
+
+class E extends D {
+}
+
+int main(){
+    C d = new D;
+    C e = new E;
+    d.tell();
+    e.tell();
+    return 0;
+}

@@ -10,6 +10,6 @@ C myF(){
     return new C;
 }
 int main(){
-    myF().other.f();
+    myF().f();
     return 0;
 }
